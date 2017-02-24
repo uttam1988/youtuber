@@ -14,9 +14,15 @@ import ReactDOM from 'react-dom';
   </Provider>
   , document.querySelector('.container'));*/
 
+import SearchBar from './components/search_bar';
 
+const API_KEY = 'AIzaSyDwiI_5GlUp-MiRd7wn8GA1DDI42eELuyY';
 const App = () => {
-    return <div>Hi there I am a component</div>;
+    return (
+        <div>
+            <SearchBar/>
+        </div>
+    );
 }
 
 ReactDOM.render(<App/>,document.querySelector('.container'))
