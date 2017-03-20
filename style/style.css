@@ -1,0 +1,17 @@
+.search-bar {
+    box-shadow: 0px 2px 18px 1px #cccccc;
+    margin: 20px 0;
+}
+
+.video-detail {
+    padding-left: 0 !important;
+}
+
+.details {
+    padding: 5px;
+    border: 1px solid #dddddd;
+}
+
+.list-group {
+    padding-right: 0 !important;
+}
